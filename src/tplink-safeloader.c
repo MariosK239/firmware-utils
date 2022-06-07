@@ -1234,7 +1234,7 @@ static struct device_info boards[] = {
 			"SupportList:\n"
 			"{product_name:Archer C6U,product_ver:1.0.0,special_id:45550000}\n",
 		.part_trail = 0x00,
-		.soft_ver = SOFT_VER_TEXT("soft_ver:1.0.2\n"),
+		.soft_ver = SOFT_VER_TEXT("soft_ver:1.0.4\n"),
 
 		.partitions = {
 			{"fs-uboot", 0x00000, 0x40000},
@@ -1340,7 +1340,7 @@ static struct device_info boards[] = {
 			"{product_name:Archer C60,product_ver:3.0.0,special_id:45550000}\r\n"
 			"{product_name:Archer C60,product_ver:3.0.0,special_id:55530000}\r\n",
 		.part_trail = 0x00,
-		.soft_ver = SOFT_VER_TEXT("soft_ver:3.0.0\n"),
+		.soft_ver = SOFT_VER_TEXT("soft_ver:1.2.0\n"),
 
 		.partitions = {
 			{"factory-boot", 0x00000, 0x1fb00},
